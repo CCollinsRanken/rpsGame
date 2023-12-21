@@ -1,0 +1,70 @@
+/* Set a light pink background for all pages */
+body {
+    background-color: pink;
+    background-color: pink;
+    color: #333;
+  }
+
+ 
+  
+  /* Style container for consistent padding */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Style the accordion for FAQ page */
+  .accordion-button {
+    background-color: #343a40; 
+    color: #fff; 
+  }
+  
+  /* Style the error messages in contact page */
+  #errorList {
+    color: #dc3545; /* Red color for error messages */
+  }
+  
+  /* Style the "Thank You" message */
+  .container h1, .container p {
+    color: #007bff; /* Blue color for "Thank You" message */
+  }
+
+  /* Style container for consistent padding */
+.container {
+    padding: 20px;
+  }
+  
+  /* Style the carousel in index page */
+  .carousel {
+    max-width: 600px; /* Limit the width of the carousel */
+    margin: 0 auto; /* Center the carousel within the container */
+  }
+  
+  /* Style carousel images for normal size */
+  .carousel-item img {
+    width: 100%; /* Make images responsive within the carousel */
+    max-height: 400px; /* Limit the height of the images */
+  }
+
+  #nav_list ul {
+    list-style-type: none;
+    margin-left: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #nav_list ul li {
+    width: 200px;
+    margin-bottom: .5em;
+    border: 2px solid black;
+  }
+
+  #nav_list li a {
+    display: block;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+
+  #nav_list ul li a.current {
+    background-color: black;
+  }

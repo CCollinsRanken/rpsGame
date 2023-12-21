@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Rock, Paper, Scissors FAQ</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Rock, Paper, Scissors FAQs</h1>
+
+    <nav id="nav_list">
+      <ul>
+        <li><a href="index.html">Home</a class="current"></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="game.html">Let's Play</a></li>
+      </ul>
+    </nav>
+
+    <!-- FAQ content -->
+    <div class="accordion" id="faqAccordion">
+      <!-- FAQ item 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+            Question 1: What is Rock, Paper, Scissors?
+          </button>
+        </h2>
+        <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Answer 1: Rock, Paper, Scissors is a simple hand game usually played between two people. Each player simultaneously forms one of three shapes with their hand.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ item 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+            Question 2: How do I play Rock, Paper, Scissors?
+          </button>
+        </h2>
+        <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Answer 2: Each player simultaneously forms one of three shapes with their hand: rock, paper, or scissors. The winner is determined by the rules: rock crushes scissors, scissors cuts paper, and paper covers rock.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ item 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+            Question 3: Can the game end in a tie?
+          </button>
+        </h2>
+        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Answer 3: Yes, if both players choose the same shape (rock, paper, or scissors), the game results in a tie.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ item 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading4">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+            Question 4: How can I improve my chances of winning?
+          </button>
+        </h2>
+        <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Answer 4: Rock, Paper, Scissors is a game of chance, but some players use strategies or try to predict their opponent's next move. However, it ultimately depends on luck.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ item 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading5">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+            Question 5: Is there a professional Rock, Paper, Scissors league?
+          </button>
+        </h2>
+        <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Answer 5: Surprisingly, there are competitive Rock, Paper, Scissors tournaments and leagues, where players strategize and compete for prizes.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
